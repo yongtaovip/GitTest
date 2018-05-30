@@ -13,6 +13,8 @@
 		9F376A2920BE482400F7DD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F376A2820BE482400F7DD89 /* Assets.xcassets */; };
 		9F376A2C20BE482400F7DD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F376A2A20BE482400F7DD89 /* LaunchScreen.storyboard */; };
 		9F376A2F20BE482400F7DD89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F376A2E20BE482400F7DD89 /* main.m */; };
+		9F376A3A20BE495500F7DD89 /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F376A3920BE495500F7DD89 /* MyPerson.m */; };
+		9F376A3D20BE49D500F7DD89 /* TestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F376A3C20BE49D500F7DD89 /* TestTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9F376A2B20BE482400F7DD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F376A2D20BE482400F7DD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F376A2E20BE482400F7DD89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F376A3820BE495500F7DD89 /* MyPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPerson.h; sourceTree = "<group>"; };
+		9F376A3920BE495500F7DD89 /* MyPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPerson.m; sourceTree = "<group>"; };
+		9F376A3B20BE49D500F7DD89 /* TestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTool.h; sourceTree = "<group>"; };
+		9F376A3C20BE49D500F7DD89 /* TestTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				9F376A2020BE482300F7DD89 /* AppDelegate.m */,
 				9F376A2220BE482300F7DD89 /* ViewController.h */,
 				9F376A2320BE482300F7DD89 /* ViewController.m */,
+				9F376A3820BE495500F7DD89 /* MyPerson.h */,
+				9F376A3920BE495500F7DD89 /* MyPerson.m */,
+				9F376A3B20BE49D500F7DD89 /* TestTool.h */,
+				9F376A3C20BE49D500F7DD89 /* TestTool.m */,
 				9F376A2520BE482300F7DD89 /* Main.storyboard */,
 				9F376A2820BE482400F7DD89 /* Assets.xcassets */,
 				9F376A2A20BE482400F7DD89 /* LaunchScreen.storyboard */,
@@ -143,6 +153,8 @@
 			files = (
 				9F376A2420BE482300F7DD89 /* ViewController.m in Sources */,
 				9F376A2F20BE482400F7DD89 /* main.m in Sources */,
+				9F376A3D20BE49D500F7DD89 /* TestTool.m in Sources */,
+				9F376A3A20BE495500F7DD89 /* MyPerson.m in Sources */,
 				9F376A2120BE482300F7DD89 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
